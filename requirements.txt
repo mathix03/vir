@@ -1,0 +1,9 @@
+setuptools<70
+pycdlib
+passlib
+paramiko
+cryptography
+pyfatfs
+dissect.hypervisor
+dissect.volume
+dissect.ntfs

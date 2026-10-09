@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ubuntu-p169-test1",
+    "name": "P169UbuTest1 — Ubuntu 64-bit (modèle projet 169)",
+    "family": "ubuntu",
+    "sourceVm": "b73adf44-2f2a-4264-91d9-faf9bd415a70",
+    "provider": "virtualbox",
+    "provisioner": "linux",
+    "bootstrapUser": "root",
+    "systemEnv": "gui",
+    "osType": "Ubuntu_64",
+    "isoName": "",
+    "notes": "VM Ubuntu du projet 169. Pas de correspondance ISO déclarée : utilisable pour des déploiements Ubuntu génériques avec templateId explicite. Vérifier que les outils invités et root SSH sont disponibles avant usage.",
+    "validatedAt": null
+  },
+  {
+    "id": "windows11-win",
+    "name": "win — Windows 11 64-bit",
+    "family": "windows",
+    "sourceVm": "2ad4c493-12dc-473e-b990-e7b724038ac7",
+    "provider": "virtualbox",
+    "provisioner": "windows",
+    "bootstrapUser": "Administrator",
+    "systemEnv": "gui",
+    "osType": "Windows11_64",
+    "isoName": "",
+    "notes": "VM Windows 11. Pas de correspondance ISO déclarée. Utilisable uniquement avec templateId explicite et mot de passe Administrator. Vérifier VirtualBox Guest Additions et PowerShell 5+ avant usage.",
+    "validatedAt": null
+  },
+  {
+    "id": "56431d073349bdab",
+    "name": "Debian 13.7 — modèle préparé",
+    "family": "debian",
+    "sourceVm": "cefd5afe-dd44-4556-98ef-85c16ce014ca",
+    "provider": "virtualbox",
+    "provisioner": "linux",
+    "bootstrapUser": "root",
+    "systemEnv": "cli",
+    "osType": "Debian (64-bit)",
+    "isoName": "debian-13-netinst.iso",
+    "managedCredentials": true,
+    "validatedAt": "2026-10-04T18:21:58.016331+00:00",
+    "sourceCheckedAt": "2026-10-04T18:14:19.039573+00:00",
+    "validationJob": "vbox-20261004-201715-e6968ba8"
+  },
+  {
+    "id": "8a81a9e625ac55fb",
+    "name": "Windows 11 25H2 Pro — modele prepare",
+    "family": "windows",
+    "sourceVm": "48802ee6-66c0-447a-b518-4c3203029e38",
+    "provider": "virtualbox",
+    "provisioner": "windows",
+    "bootstrapUser": "Administrateur",
+    "systemEnv": "gui",
+    "osType": "Windows 11 (64-bit)",
+    "isoName": "Win11_25H2_French_x64_v2.iso",
+    "managedCredentials": true,
+    "sourceCheckedAt": "2026-10-04T19:25:54.343758+00:00",
+    "preparationJob": "vbox-20261004-202922-734ed585",
+    "validatedAt": "2026-10-04T19:38:26.052679+00:00",
+    "validationJob": "vbox-20261004-212554-95e48e2f"
+  }
+]
